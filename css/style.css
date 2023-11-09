@@ -2,12 +2,13 @@
 
 @font-face {
   font-family: "netflix";
-  src: url("netflix.otf") format("opentype"), url("netflix.ttf") format("truetype");
+  src: url("netflix.otf") format("opentype"),
+    url("netflix.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
-*{
+* {
   font-family: "netflix" sans-serif, Arial, Helvetica, sans-serif;
 }
 
@@ -17,6 +18,11 @@ body {
 /* */
 /* Link*/
 .link {
+  text-decoration: none;
+  color: #737373;
+}
+
+.duvida {
   text-decoration: none;
   color: #737373;
 }
@@ -34,8 +40,39 @@ body {
 
 /* entra na sua conta*/
 
+.posicaologin {
+  margin: 0px auto -550px;
+  max-width: 700px;
+}
+
+.text {
+  background-color: #333333;
+  margin-bottom: 14px;
+  padding: 12px;
+  width: 98%;
+  border: #333333 solid 1px;
+  border-radius: 4px;
+}
+
+.butVer {
+  width: 100%;
+  padding: 12px;
+  margin: 0px 14px;
+  color: #ffffff;
+  background-color: #ff0000;
+  border: #ff0000 solid 1px;
+  cursor: pointer;
+}
+
+.help {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .infor {
-  background-color: #8f0b0b62;
+  background-color: #00000062;
   display: block;
   margin: 0% 0% 0% 0%;
   padding: 0% 0% 35% 0%;
@@ -45,9 +82,9 @@ body {
   display: flex;
   flex-direction: column;
   color: #ffffff;
-  background-color: #00000062;
-  padding: 10% 10% 10% 10%;
-  margin: 10% 10% 10% 10%;
+  background-color: #00000093;
+  padding: 9% 9%;
+  margin: 0% 0% 4% 0%;
 }
 
 /* imgagem de fundo*/
@@ -84,13 +121,15 @@ body {
 #footer {
   color: #ffffff;
   background-color: #010813;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .footer ul {
   text-decoration: none;
   columns: 2;
 }
+
+.rodape{
+ background-color: #ff0000;
+}
+
+
