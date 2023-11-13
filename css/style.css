@@ -12,14 +12,20 @@
   font-family: "netflix" sans-serif, Arial, Helvetica, sans-serif;
 }
 
-body {
+body { 
+  height: 100vh;
+  background-image: url(../imagens/fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+  width: auto;
   margin: 0% 0% 0% 0%;
 }
 /* */
 /* Link*/
-.link {
-  text-decoration: none;
-  color: #737373;
+d a:hover {
+  color: #333333;
+  text-decoration: underline;
 }
 
 .duvida {
@@ -72,10 +78,10 @@ body {
 }
 
 .infor {
-  background-color: #00000062;
+  background-color: #000000a3;
   display: block;
-  margin: 0% 0% 0% 0%;
-  padding: 0% 0% 35% 0%;
+  margin: 0px 0px 0px 0px;
+  padding: 0% 0% 100% 0%;
 }
 
 .login {
@@ -83,8 +89,9 @@ body {
   flex-direction: column;
   color: #ffffff;
   background-color: #00000093;
-  padding: 9% 9%;
-  margin: 0% 0% 4% 0%;
+  padding: 8% 6%;
+  margin: 0% 6% 0% 6%;
+  width: 71%;
 }
 
 /* imgagem de fundo*/
@@ -118,18 +125,32 @@ body {
 }
 
 /* rodape*/
+
 #footer {
   color: #ffffff;
-  background-color: #010813;
+   background-color: rgba(5, 16, 20, 0.9);
+   padding: 25px;
+   margin: 0px 0px 0px 0px;
+   position: fixed;
+   bottom: 0px;
+   width: 100%;
 }
 
-.footer ul {
+
+ul {
   text-decoration: none;
-  columns: 2;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
-.rodape{
- background-color: #ff0000;
+.link {
+  text-decoration: none;
+  color: #737373;
+  list-style: none;
 }
 
+.link:hover {
+  color: #737373;
+  text-decoration: underline;
+}
 
