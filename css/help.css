@@ -1,0 +1,36 @@
+@charset "UFT-8";
+
+*{
+margin: auto;
+}
+
+.conteudo{
+margin: 0px 30px 0px 30px;
+}
+
+.helpimg{
+  width: 90%;
+}
+
+.img{
+width: 32%;
+}
+
+.toppag {
+  background-color: #000000;
+  color: #fff;
+}
+
+
+#linha{
+margin: 40px 0px 40px 0px;
+border: 1px solid #D5D4D1;
+
+}
+
+.rodape {
+  right: '1';
+  color: #fff;
+background-image: linear-gradient(to top ,#000, #83050C);
+
+}
