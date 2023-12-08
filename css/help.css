@@ -31,6 +31,10 @@ border: 1px solid #D5D4D1;
 .rodape {
   right: '1';
   color: #fff;
-background-image: linear-gradient(to top ,#000, #83050C);
+  background:  linear-gradient(10deg, rgba(229, 9, 20, 0) 58%, #e50914 128%),#000;
+}
 
+
+#translateButton {
+  display: inline-block;
 }

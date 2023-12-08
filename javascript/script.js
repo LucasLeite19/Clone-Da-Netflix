@@ -9,5 +9,3 @@ function about(el) {
   var botao = document.getElementById('meuBotao');
   botao.style.display = 'none';
 }
-
-
